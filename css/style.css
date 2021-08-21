@@ -498,7 +498,7 @@ body {
 }
 
 .event .border-area {
-  margin: 0 auto;
+  margin: 20px auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -765,6 +765,14 @@ body {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+}
+
+.thank-section .text-3 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  position: relative;
+  top: 50px;
 }
 
 .help-block ul {
