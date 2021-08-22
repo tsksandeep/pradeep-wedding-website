@@ -4,31 +4,22 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
-
 /*stickey nav*/
-
 .bg-transparent {
   background-color: #ffffff !important;
   box-shadow: -4px 0px 2px #8e8e8e;
 }
-
 .navbar {
   padding: 10px 50px;
   background: rgba(255, 255, 255, 0.82);
 }
-
 .navbar .navbar-brand {
   font-family: "Kaushan Script", cursive;
-
   padding: 5px 0px;
-
   color: #000000;
-
   letter-spacing: 5px;
-
   font-size: 30px;
 }
-
 .navbar img {
   border-radius: 5px;
   margin-left: 10px;
@@ -36,19 +27,15 @@ body {
   position: relative;
   top: -3px;
 }
-
 .navbar .navbar-brand:hover {
   color: #000000;
 }
-
 .navbar-brand:hover .fa-heartbeat {
   color: #ff6868;
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
 }
-
 .navbar-light .navbar-nav li {
   font-weight: 600;
   letter-spacing: 2px;
@@ -57,24 +44,19 @@ body {
   text-transform: capitalize;
   padding-right: 10px;
 }
-
 .navbar-nav .nav-item .nav-link:visited {
   color: #000000;
 }
-
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus {
   color: #ff4545;
 }
-
 .navbar-nav .nav-item .nav-link.active {
   color: #ff4545;
 }
-
 .navbar-brand .fa-heartbeat {
   color: #ff4545;
 }
-
 @media (max-width: 768px) {
   .navbar {
     padding: 20px !important;
@@ -83,7 +65,6 @@ body {
     font-size: 22px !important;
   }
 }
-
 @media (max-width: 576px) {
   .navbar {
     padding: 10px !important;
@@ -92,9 +73,7 @@ body {
     font-size: 18px !important;
   }
 }
-
 /*section-1 */
-
 .section-1 {
   height: 100vh;
   background: url("../img/section1/slide.jpg") no-repeat;
@@ -102,18 +81,15 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-
 .section-1 .content {
   position: relative;
   height: 100vh;
 }
-
 .wrap-content {
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
 }
-
 .wrap-content img {
   width: 60%;
   margin-top: 100px;
@@ -121,7 +97,6 @@ body {
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   background: rgba(251, 254, 223, 0.47);
 }
-
 .text-box {
   width: 70%;
   position: absolute;
@@ -130,32 +105,26 @@ body {
   transform: translateX(-50%);
   text-align: center;
 }
-
 .text-box h3 {
   font-family: "Dancing Script", cursive;
   text-transform: capitalize;
   font-size: 60px;
   margin: 0;
 }
-
 .text-box .small-text {
   font-family: "Cinzel", serif;
   font-size: 19px;
   padding: 0;
   margin: 0;
 }
-
 /*section-1 end*/
-
 /* ======================= section 2 =================== */
-
 .section-2 {
   background: url("../img/");
   background-size: 10%;
   background-origin: top left;
   padding: 80px 0px;
 }
-
 .section-2 h1 {
   font-size: 45px;
   font-family: "Dancing Script", cursive;
@@ -164,7 +133,6 @@ body {
   padding-bottom: 60px;
   color: #ff4545;
 }
-
 .section-2 h1::before {
   content: "";
   display: block;
@@ -175,7 +143,6 @@ body {
   height: 70px;
   width: 100%;
 }
-
 .section-2 h1::after {
   content: "";
   display: block;
@@ -186,7 +153,6 @@ body {
   height: 45px;
   width: 100%;
 }
-
 .bridegroom {
   background: url("../img/section2/he2.jpg");
   background-repeat: no-repeat;
@@ -196,7 +162,6 @@ body {
   text-align: center;
   padding: 0;
 }
-
 .bride {
   background: url("../img/section2/she.jpg");
   background-repeat: no-repeat;
@@ -206,12 +171,10 @@ body {
   text-align: center;
   padding: 0;
 }
-
 .bridegroom img,
 .bride img {
   width: 100%;
 }
-
 .text-section h3 {
   text-align: center;
   font-family: "Kaushan Script", cursive;
@@ -219,15 +182,12 @@ body {
   text-transform: capitalize;
   padding: 10px 0px;
 }
-
 .text-section p {
   font-size: 16px;
   text-align: center;
   padding: 0 60px;
 }
-
 /*===================== section-3 =====================*/
-
 .section-3 {
   background: #ffebb9;
   background: tomato;
@@ -236,7 +196,6 @@ body {
   background-position: center;
   padding: 80px 0px;
 }
-
 .section-3 h1 {
   color: #fff;
   font-size: 20px;
@@ -245,7 +204,6 @@ body {
   text-align: center;
   padding-top: 20px;
 }
-
 .section-3 p {
   color: #fff;
   font-family: "Open sans", sans-serif;
@@ -255,14 +213,11 @@ body {
   font-weight: 600;
   text-align: center;
 }
-
 /*===================== section-3 =====================*/
-
 .section-4 {
   background: #fff;
   padding: 80px 0px;
 }
-
 .section-4 .heading h1 {
   font-size: 45px;
   font-family: "Dancing Script", cursive;
@@ -271,7 +226,6 @@ body {
   padding-bottom: 60px;
   color: #ff4545;
 }
-
 .section-4 .heading h1::after {
   content: "";
   display: block;
@@ -282,34 +236,27 @@ body {
   height: 45px;
   width: 100%;
 }
-
 /*============= slide 1 ===============*/
-
 .section-4 .story-content {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .section-4 .story-content img {
   width: 100%;
 }
-
 .section-4 .story-content .col-xl-6:nth-child(2) {
   padding: 40px 20px;
   background: #ffff;
 }
-
 .section-4 .story-content h1 {
   color: #de013f;
   font-family: "Dancing Script", cursive;
   text-align: left;
 }
-
 .section-4 .story-content p {
   color: #000;
   font-family: "Open sans", sans-serif;
   text-align: left;
 }
-
 .section-4 .date {
   width: fit-content;
   font-size: 16px;
@@ -318,38 +265,29 @@ body {
   border-radius: 4px;
   margin-bottom: 25px;
 }
-
 /*========== content slide2 ==============*/
-
 .section-4 .story-content2 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 50px;
   padding: 0;
 }
-
 .section-4 .story-content2 img {
   width: 100%;
 }
-
 .section-4 .story-content2 .col-xl-6:nth-child(1) {
   padding: 40px 20px;
   background: #ffff;
 }
-
 .section-4 .story-content2 h1 {
   color: #de013f;
-
   font-family: "Dancing Script", cursive;
-
   text-align: left;
 }
-
 .section-4 .story-content2 p {
   color: #000;
   font-family: "Open sans", sans-serif;
   text-align: left;
 }
-
 .section-4 .story-content2 .date {
   width: fit-content;
   font-size: 16px;
@@ -357,55 +295,43 @@ body {
   padding: 10px;
   border-radius: 4px;
 }
-
 /*===== content slider3 =========*/
-
 .section-4 .story-content3 {
   margin-top: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .section-4 .story-content3 img {
   width: 100%;
 }
-
 .section-4 .image1 {
   padding: 10px 5px 5px 10px;
 }
-
 .section-4 .image2 {
   padding: 10px 10px 5px 5px;
 }
-
 .section-4 .image3 {
   padding: 5px 5px 10px 10px;
 }
-
 .section-4 .image4 {
   padding: 5px 10px 10px 5px;
 }
-
 .section-4 .story-content3 .image-container {
   background: url("../img/section3/lightpaperfibers.png");
 }
-
 .section-4 .story-content3 .text-container {
   padding: 40px 20px;
   background: #ffff;
 }
-
 .section-4 .story-content3 h1 {
   color: #de013f;
   font-family: "Dancing Script", cursive;
   text-align: left;
 }
-
 .section-4 .story-content3 p {
   color: #000;
   font-family: "Open sans", sans-serif;
   text-align: left;
 }
-
 .section-4 .story-content3 .date {
   width: fit-content;
   font-size: 16px;
@@ -413,22 +339,17 @@ body {
   padding: 10px;
   border-radius: 4px;
 }
-
 /*============= slide 4 ===============*/
-
 .section-4 .story-content4 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 50px;
 }
-
 .section-4 .story-content4 .video-thumb {
   width: 100%;
 }
-
 .section-4 .video {
   position: relative;
 }
-
 .play-button {
   font-size: 60px;
   color: #ff4545;
@@ -439,30 +360,23 @@ body {
   background: transparent;
   opacity: 0.5;
 }
-
 .video:hover .play-button {
   opacity: 1;
 }
-
 .section-4 .story-content4 .col-xl-6:nth-child(1) {
   padding: 40px 20px;
   background: #ffff;
 }
-
 .section-4 .story-content4 h1 {
   color: #de013f;
-
   font-family: "Dancing Script", cursive;
-
   text-align: left;
 }
-
 .section-4 .story-content4 p {
   color: #000;
   font-family: "Open sans", sans-serif;
   text-align: left;
 }
-
 .section-4 .story-content4 .date {
   width: fit-content;
   font-size: 16px;
@@ -470,13 +384,10 @@ body {
   padding: 10px;
   border-radius: 4px;
 }
-
 /* =========== section 5 ============= */
-
 .section-5 {
   padding: 80px 0px;
 }
-
 .section-5 .heading h1 {
   font-size: 45px;
   font-family: "Dancing Script", cursive;
@@ -485,7 +396,6 @@ body {
   padding-bottom: 60px;
   color: #ff4545;
 }
-
 .section-5 .heading h1::after {
   content: "";
   display: block;
@@ -496,21 +406,17 @@ body {
   height: 45px;
   width: 100%;
 }
-
 .event .border-area {
   margin: 20px auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .event img {
   width: 100%;
 }
-
 .event .content {
   background: #ffffff;
   padding: 20px 10px;
 }
-
 .event .content h1 {
   color: #ff5050;
   font-family: "Open Sans", sans-serif;
@@ -519,11 +425,9 @@ body {
   letter-spacing: 2px;
   font-size: 30px;
 }
-
 .event .content p {
   font-family: "Open Sans", sans-serif;
 }
-
 .event ul {
   list-style-type: none;
   margin: 0;
@@ -534,19 +438,15 @@ body {
   font-size: 13px;
   line-height: 22px;
 }
-
 .event ul li {
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
   font-size: 13px;
 }
-
 /* =========== section 6 ============= */
-
 .section-6 {
   padding: 80px 0px;
 }
-
 .section-6 .heading h1 {
   font-size: 45px;
   font-family: "Dancing Script", cursive;
@@ -555,7 +455,6 @@ body {
   padding-bottom: 60px;
   color: #ff4545;
 }
-
 .section-6 .heading h1::after {
   content: "";
   display: block;
@@ -566,7 +465,6 @@ body {
   height: 45px;
   width: 100%;
 }
-
 .section-6 .people-heading {
   font-family: "Kaushan Script", cursive;
   color: #fff;
@@ -574,7 +472,6 @@ body {
   background-size: 20%;
   background-position: center;
 }
-
 .section-6 .people-heading h1 {
   font-family: "Kaushan Script", cursive;
   text-transform: capitalize;
@@ -583,39 +480,32 @@ body {
   padding: 10px 5px;
   font-size: 30px;
 }
-
 .section-6 .bride-family .people-heading {
   font-family: "Kaushan Script", cursive;
   text-transform: capitalize;
-
   display: inline-block;
   color: #ff5050;
   margin: 0;
   padding: 0px 0px;
   text-align: right;
 }
-
 .section-6 .people {
   padding: 0px 0px;
   border-left: 5px solid #ff5050;
   border-bottom: 5px solid #ff5050;
   border: 5px solid rgba(255, 80, 80, 0);
 }
-
 .section-6 .people .border-area {
   margin: 0 auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .section-6 .people img {
   width: 100%;
 }
-
 .section-6 .people .content {
   background: #ffffff;
   padding: 20px 10px;
 }
-
 .section-6 .people .content h1 {
   color: #ff5050;
   font-family: "Open Sans", sans-serif;
@@ -624,26 +514,21 @@ body {
   letter-spacing: 2px;
   font-size: 30px;
 }
-
 .section-6 .people .content p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #6c6c6c;
 }
-
 .section-6 .groom-family {
   padding-bottom: 50px;
 }
-
 /*section-7*/
-
 .section-7 {
   background: #ffffff;
   background-size: cover;
   background-position: center;
   padding: 80px 0px 140px 0px;
 }
-
 .section-7 .heading h1 {
   font-size: 45px;
   font-family: "Dancing Script", cursive;
@@ -652,7 +537,6 @@ body {
   padding-bottom: 60px;
   color: #ff4545;
 }
-
 .section-7 .heading h1::after {
   content: "";
   display: block;
@@ -663,19 +547,15 @@ body {
   height: 45px;
   width: 100%;
 }
-
 .gallery-image {
   padding: 0;
 }
-
 .gallery-image:hover {
   z-index: 1;
 }
-
 .gallery-image a img {
   width: 100%;
 }
-
 .gallery-image a img:hover {
   position: relative;
   transform: scale(1.1);
@@ -685,11 +565,8 @@ body {
   z-index: 1;
   width: 100%;
 }
-
 /*section-7 end*/
-
 /*section-9*/
-
 .section-9 {
   background: #f59090;
   background: url("../img/footer/footer-bg2.jpg");
@@ -698,41 +575,33 @@ body {
   padding: 80px 0px;
   position: relative;
 }
-
 .section-9::after {
   content: "";
   display: block;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.63);
-
   background-size: cover;
   background-position: center;
   padding: 80px 0px;
   position: absolute;
   top: 0;
 }
-
 /*section-9 end*/
-
 /*footer*/
-
 .thank-section {
   color: white;
   z-index: 1;
   text-align: center;
 }
-
 .thank-section .text-1 {
   padding: 50px 0px;
 }
-
 .thank-section .text-1 h1 {
   font-size: 80px;
   font-family: "Great Vibes", cursive;
   text-transform: capitalize;
 }
-
 .text-1::after {
   content: " ";
   display: block;
@@ -744,29 +613,25 @@ body {
   width: 100%;
   position: relative;
 }
-
 .thank-section .text-1 h4 {
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
 }
-
 .thank-section .text-2 {
   padding: 0px 0px;
+  margin-bottom: 100px;
 }
-
 .thank-section .text-2 h2 {
   font-size: 35px;
   font-family: "Open Sans", sans-serif;
   font-family: "Dancing Script", cursive;
 }
-
 .thank-section .text-2 h5 {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
 }
-
 .thank-section .text-3 {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -774,28 +639,100 @@ body {
   position: relative;
   top: 50px;
 }
-
+.thank-section .text-3 .love {
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+}
+.thank-section .text-3 .author {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+}
+.author-initial {
+  font-size: 30px;
+}
 .help-block ul {
   margin: 0;
   padding: 0;
 }
-
 .help-block ul li {
   list-style: none;
   color: red;
   font-size: 13px;
   padding: 5px 0 8px;
 }
+/* Heart Animation */
+
+.bg_heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  top: -50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -m-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  opacity: 0.5;
+}
+
+.heart:before {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+.heart:after {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@-moz-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@-ms-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@keyframes love {
+  0% {
+    top: 110%;
+  }
+}
 
 /*footer end*/
-
 /* start 1024px  */
-
 @media only screen and (max-width: 1024px) {
   .navbar-light .navbar-toggler {
     border-color: rgb(255, 69, 69);
   }
-
   .section-1 {
     height: 100vh;
     background: url("../img/section1/md-bg.jpg") no-repeat;
@@ -803,7 +740,6 @@ body {
     background-attachment: scroll;
     background-size: cover;
   }
-
   .text-box {
     width: 70%;
     position: absolute;
@@ -817,13 +753,11 @@ body {
     top: 70%;
     /* transform: translatey(-50%); */
   }
-
   .navbar {
     padding: 30px 50px;
     background: rgba(255, 255, 255, 0.82);
   }
 }
-
 @media only screen and (max-width: 768px) {
   .section-1 {
     height: 100vh;
@@ -845,23 +779,19 @@ body {
     text-align: center;
     padding: 0 20px;
   }
-
   .event {
     display: inline-block;
     margin: 0 auto;
     padding-bottom: 40px;
   }
-
   .section-3 .col-xs-3 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .gallery-overflow-xs {
     overflow: hidden;
   }
 }
-
 @media only screen and (max-width: 576px) {
   .section-1 {
     height: 100vh;
@@ -870,7 +800,6 @@ body {
     background-attachment: scroll;
     background-size: cover;
   }
-
   .wrap-content img {
     width: 86%;
     margin-top: 100px;
@@ -878,13 +807,11 @@ body {
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
     background: rgba(251, 254, 223, 0.47);
   }
-
   .wrap-content {
     position: absolute;
     top: 68%;
     /* transform: translatey(-50%); */
   }
-
   .text-box {
     width: 70%;
     position: absolute;
@@ -893,12 +820,10 @@ body {
     transform: translateX(-50%);
     text-align: center;
   }
-
   .section-3 .col-xs-3 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .section-2 h1::before {
     content: "";
     display: block;
@@ -909,7 +834,6 @@ body {
     height: 70px;
     width: 100%;
   }
-
   .section-2 h1::after {
     content: "";
     display: block;
@@ -920,22 +844,18 @@ body {
     height: 45px;
     width: 100%;
   }
-
   .section-3 .col-xl-3.col-lg-3.col-md-3.col-6 {
     padding: 40px 0px;
   }
-
   .section-6 .people {
     padding: 20px 0px;
     border-left: 5px solid #ff5050;
     border-bottom: 5px solid #ff5050;
     border: 5px solid rgba(255, 80, 80, 0);
   }
-
   .gallery-image {
     /* padding: 0; */
   }
-
   .section-8 {
     background: #f59090;
     background: #efefef;
@@ -944,7 +864,6 @@ body {
     padding: 80px 0px;
     overflow: hidden;
   }
-
   .gallery-overflow-xs {
     overflow: hidden;
   }
