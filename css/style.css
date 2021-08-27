@@ -891,9 +891,6 @@ body {
     border-bottom: 5px solid #ff5050;
     border: 5px solid rgba(255, 80, 80, 0);
   }
-  .gallery-image {
-    /* padding: 0; */
-  }
   .section-8 {
     background: #f59090;
     background: #efefef;
@@ -904,5 +901,19 @@ body {
   }
   .gallery-overflow-xs {
     overflow: hidden;
+  }
+  .section-5 .event {
+    margin: 0 10px !important;
+  }
+  .section-6 .family-1 {
+    position: relative;
+    left: 20px;
+  }
+  .section-6 .family-2 {
+    position: relative;
+    right: 20px;
+  }
+  .section-6 .people {
+    margin: 10px 20px !important;
   }
 }
