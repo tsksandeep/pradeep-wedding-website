@@ -86,16 +86,17 @@ body {
   height: 100vh;
 }
 .wrap-content {
+  width: 700px;
   position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
+  top: 25%;
+  right: 0;
 }
 .wrap-content img {
   width: 60%;
   margin-top: 100px;
   margin-left: 150px;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  background: rgba(251, 254, 223, 0.47);
+  background: rgba(251, 254, 223, 0.8);
 }
 .text-box {
   width: 70%;
@@ -501,6 +502,7 @@ body {
 }
 .section-6 .people img {
   width: 100%;
+  height: auto;
 }
 .section-6 .people .content {
   background: #ffffff;
@@ -549,6 +551,9 @@ body {
 }
 .gallery-image {
   padding: 0;
+}
+.max-img-size {
+  height: 200px;
 }
 .gallery-image:hover {
   z-index: 1;
@@ -740,18 +745,22 @@ body {
     background-attachment: scroll;
     background-size: cover;
   }
-  .text-box {
-    width: 70%;
-    position: absolute;
-    top: 45%;
-    left: 44%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
   .wrap-content {
+    width: 600px;
     position: absolute;
-    top: 70%;
-    /* transform: translatey(-50%); */
+    top: 30%;
+    right: 0;
+  }
+  .wrap-content img {
+    width: 60%;
+    height: fit-content;
+    margin-top: 100px;
+    margin-left: 150px;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    background: rgba(251, 254, 223, 0.8);
+  }
+  .wrap-content .text-box {
+    left: 55%;
   }
   .navbar {
     padding: 30px 50px;
@@ -766,18 +775,16 @@ body {
     background-attachment: scroll;
     background-size: cover;
   }
-  .text-box {
-    width: 70%;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
   .text-section p {
     font-size: 16px;
     text-align: center;
     padding: 0 20px;
+  }
+  .text-box h3 {
+    font-size: 50px;
+  }
+  .text-box .small-text {
+    font-size: 16px;
   }
   .event {
     display: inline-block;
@@ -800,25 +807,12 @@ body {
     background-attachment: scroll;
     background-size: cover;
   }
+  .wrap-content .text-box {
+    width: fit-content;
+    left: 70%;
+  }
   .wrap-content img {
-    width: 86%;
-    margin-top: 100px;
-    margin-left: 20px;
-    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-    background: rgba(251, 254, 223, 0.47);
-  }
-  .wrap-content {
-    position: absolute;
-    top: 68%;
-    /* transform: translatey(-50%); */
-  }
-  .text-box {
-    width: 70%;
-    position: absolute;
-    top: 44%;
-    left: 45%;
-    transform: translateX(-50%);
-    text-align: center;
+    float: right;
   }
   .section-3 .col-xs-3 {
     padding-top: 20px;
