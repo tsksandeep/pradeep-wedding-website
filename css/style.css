@@ -239,6 +239,7 @@ body {
 }
 /*============= slide 1 ===============*/
 .section-4 .story-content {
+  margin: 0 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .section-4 .story-content img {
@@ -268,8 +269,8 @@ body {
 }
 /*========== content slide2 ==============*/
 .section-4 .story-content2 {
+  margin: 50px 10px 0 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-top: 50px;
   padding: 0;
 }
 .section-4 .story-content2 img {
@@ -298,6 +299,7 @@ body {
 }
 /*===== content slider3 =========*/
 .section-4 .story-content3 {
+  margin: 50px 10px 0 10px;
   margin-top: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -813,6 +815,7 @@ body {
   }
   .wrap-content img {
     float: right;
+    height: 400px;
   }
   .section-3 .col-xs-3 {
     padding-top: 20px;
