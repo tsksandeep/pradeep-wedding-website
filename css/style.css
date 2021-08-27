@@ -755,6 +755,27 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .alternative-story {
+    display: flex;
+  }
+  .normal-story {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .alternative-story {
+    display: none;
+  }
+  .normal-story {
+    display: flex;
+  }
+  .normal-story .custom-col {
+    padding: 40px 20px;
+  }
+}
+
 /*footer end*/
 /* start 1024px  */
 @media only screen and (max-width: 1024px) {
