@@ -908,10 +908,12 @@ body {
   .section-6 .family-1 {
     position: relative;
     left: 20px;
+    width: fit-content;
   }
   .section-6 .family-2 {
     position: relative;
     right: 20px;
+    width: fit-content;
   }
   .section-6 .people {
     margin: 10px 20px !important;
