@@ -80,6 +80,7 @@ body {
   background-position: top left;
   background-attachment: scroll;
   background-size: cover;
+  min-height: 800px;
 }
 .section-1 .content {
   position: relative;
