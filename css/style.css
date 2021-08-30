@@ -756,6 +756,38 @@ body {
   }
 }
 
+.section-youtube-live .heading h1 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 60px;
+  color: #ff4545;
+  margin-top: 100px;
+}
+
+.section-youtube-live .heading h1::after {
+  content: "";
+  display: block;
+  background: url("../img/border.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 45px;
+  width: 100%;
+}
+
+.youtube-embed {
+  width: 100%;
+  text-align: center;
+}
+
+.youtube-embed iframe {
+  width: 97% !important;
+  height: 502px !important;
+  border-radius: 10px !important;
+}
+
 @media (min-width: 1200px) {
   .alternative-story {
     display: flex;
@@ -843,6 +875,10 @@ body {
   .gallery-overflow-xs {
     overflow: hidden;
   }
+  .section-3 #minutes,
+  .section-3 #Seconds {
+    margin-top: 50px !important;
+  }
 }
 @media only screen and (max-width: 576px) {
   .section-1 {
@@ -917,5 +953,12 @@ body {
   }
   .section-6 .people {
     margin: 10px 20px !important;
+  }
+  .youtube-embed iframe {
+    height: 302px !important;
+  }
+  .section-3 #minutes,
+  .section-3 #Seconds {
+    margin-top: 0px !important;
   }
 }
